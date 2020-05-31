@@ -62,6 +62,16 @@ The issue happens even if DoH (DNS over HTTPS) is in place. Even though, this sh
 - Set IP address manually (do not use DHCP).
 - Make sure DNS suffixes do not consist of any unusual addresses.
 
+### Chrome has the same issue:
+
+The same bug is found in the latest version of Google Chrome.
+
+![User searches for a term, it can be something very private](./chrome-search.png "Search term")
+
+The search term is sent to what-ever-server-is-set-in-the-Connection-specific-DNS-suffixes (normally it's one of the ISP's servers).
+
+![The search term is sent to the ISP\!](./chrome-search-data-leakage.png "The search term is sent to the ISP\!")
+
 ### Timeline
 - 2020/04/13: Sent bug reports to both Firefox (at security@mozilla.org) and [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=1070282).
 - 2020/04/14: Google team replied. There was a similar bug ([#479620](https://crbug.com/479620)) in their bug-tracking system but no-one had fixed yet. No responses from Firefox team.
