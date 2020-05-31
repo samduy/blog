@@ -28,6 +28,9 @@ The issue happens even if DoH (DNS over HTTPS) is in place. Even though, this sh
 
 ### Details:
 - The user wants the highest level of security & privacy, so he already enabled DoH in Firefox setting.
+
+![DNS over HTTPS is already enabled](./firefox-DoH.png "DNS over HTTPS is already enabled")
+
 - He also set DuckDuckGo as the default search engine in Firefox, to protect his privacy.
 - He types some random search in the address bar of Firefox.
 
@@ -55,3 +58,9 @@ The issue happens even if DoH (DNS over HTTPS) is in place. Even though, this sh
 ### Mitigation (temporary workaround until Firefox provides the fix):
 - Set IP address manually (do not use DHCP).
 - Make sure DNS suffixes do not consist of any unusual addresses.
+
+### Timeline
+- 2020/04/13: Sent bug reports to both Firefox and Chrome.
+- 2020/04/14: Google team replied. There was a similar bug (#479620) in their bug-tracking system but no-one had fixed yet. No responses from Firefox team.
+- 2020/05/13: Sent another reminder to Firefox team at email address: security@mozilla.org.
+- 2020/05/31: Still no reponses from Firefox team.
