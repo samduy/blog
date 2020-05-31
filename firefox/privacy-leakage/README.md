@@ -4,7 +4,10 @@
 
 ### Affected version:
 Firefox 75.0 (64-bit), latest version as of 2020-Apr-13.
+Google Chrome v81.0.4044.92 (64-bit) latest version as of 2020-Apr-13.
 Platform: Windows 10
+
+(As of my knowledge, until today 2020/05/31, there is no fix yet, later versions are most likely affected, too).
 
 ### Title:
 User's search term is accidentally sent to ISP without user's consent.
