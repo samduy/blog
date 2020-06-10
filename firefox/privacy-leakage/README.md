@@ -74,6 +74,8 @@ The search term is sent to what-ever-server-is-set-in-the-Connection-specific-DN
 
 ### Timeline
 - 2020/04/13: Sent bug reports to both Firefox (at security@mozilla.org) and [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=1070282).
-- 2020/04/14: Google team replied. There was a similar bug ([#479620](https://crbug.com/479620)) in their bug-tracking system but no-one had fixed yet. No responses from Firefox team.
+- 2020/04/14: Google team replied. There was a similar (5-YEAR-OLD) bug ([#479620](https://crbug.com/479620)) in their bug-tracking system but no-one had fixed yet. No responses from Firefox team.
 - 2020/05/13: Sent another reminder to Firefox team at email address: security@mozilla.org.
 - 2020/05/31: Still no reponses from Firefox team.
+- 2020/06/01: Public disclosure.
+- 2020/06/02: A person from Firefox team replied. They are responding to the issue at (https://bugzilla.mozilla.org/show_bug.cgi?id=1642623).
