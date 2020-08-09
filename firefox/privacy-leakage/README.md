@@ -79,3 +79,8 @@ The search term is sent to what-ever-server-is-set-in-the-Connection-specific-DN
 - 2020/05/31: Still no reponses from Firefox team.
 - 2020/06/01: Public disclosure.
 - 2020/06/02: A person from Firefox team replied. They are responding to the issue at (https://bugzilla.mozilla.org/show_bug.cgi?id=1642623).
+- 2020/06/08: Firefox team assigned the ticket as "Defect" with Severity "S3" and Priority "P2". Promissed to provide a solution.
+- 2020/08/09: The bug is stil not fixed yet.
+
+### Press
+1. https://portswigger.net/daily-swig/firefox-and-chrome-yet-to-fix-privacy-issue-that-leaks-user-searches-to-isps
